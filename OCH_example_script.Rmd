@@ -1,0 +1,28 @@
+---
+title: "OCH GitHub Workshop"
+author: "Rachael M. Cox"
+date: "3/29/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+# top few rows of data set
+head(iris)
+
+# bottom few rows of data set
+tail(iris)
+
+# summary stats for petal measurements
+petal_summary_data <- iris %>%
+  group_by(Species) %>%
+  summarize(petal_length_mean = mean(Petal.Length),
+            petal_length_sd = sd(Petal.Length),
+            petal_width_mean = mean(Petal.Width),
+            petal_width_sd = sd(Petal.Width))
+petal_summary_data
+```
+
