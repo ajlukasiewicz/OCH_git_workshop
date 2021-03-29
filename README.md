@@ -8,6 +8,6 @@ We will also cover how to work on collaborative projects and demonstrate what ha
 
 There are tons of reasons why someone would use git, from hosting a website (claus example) to 
 
-## Rachael's push/merge example
+## Push/merge example
 
-[Script output, merge 1](https://htmlpreview.github.io/?OCH_example_script.html)
+[Script output, merge 1](https://htmlpreview.github.io/?https://github.com/rachaelcox/OCH_git_workshop/blob/main/OCH_example_script.html)
