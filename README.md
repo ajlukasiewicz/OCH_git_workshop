@@ -6,5 +6,7 @@ We will also cover how to work on collaborative projects and demonstrate what ha
 
 ## Why use git? 
 
-There are tons of reasons why someone would use git, from hosting a website (claus example) to 
+There are tons of reasons why someone would use git, from [hosting a website] (https://github.com/wilkelab/wilkelab.github.io) to [publishing a package] (https://github.com/rachaelcox/diffprot) to [ensuring reproducibility] (https://github.com/marcottelab/CoEVxIMP) of published results  
+
+
 
