@@ -19,7 +19,28 @@ Collaborating on a project is made easier with the GitHub forking and branching 
 
 Using this effectively as source control (how the sausage is made) 
 
-I. Setting up github
+## Important Vocabulary and Concepts 
+Most defitions from [1](https://doi-org.ezproxy.lib.utexas.edu/10.1371/journal.pcbi.1004668)
+
+**Branch**: A copy of the files in your main repository. Useful for developing new features while keeping your old code intact. Useful for all the reasons you would want a stable version preserved: fixing bugs, writing new functions, sandboxing, and collaborative changes.
+
+**Clone**: Create a local copy of a repository on your personal computer. Does not maintain a connection to the repo you have cloned from.
+
+**Commit**: Once changes have been implemented, commits are a snapshot of those changes made. Usually associated with some unique message that you can use to track your changes over time.
+
+**Fork**: Copy of another GitHub repository to your own while maintaining a connection to the original repo. Changes made to the main repo can be **pulled** as they are updated. **Forking** allows for collaboration on projects as you can also push changes to be **merged** if allowed by the owner of the repo.
+
+**Merge**: Update files by incorporating changes from your own **branches** or from **forked branches**
+
+**Pull**: To retrieve changes from a remote repository to your local repository 
+
+**Push**: To send changes from your local repository to your remote repository 
+
+**Repository**: Directory containing all of your tracked files with associated version history. Also referred to as a repo.
+
+
+
+## Setting up your first GitHub repo 
   Making an account
   What is a readme 
   making your first init 
@@ -36,3 +57,21 @@ Example of fork and merge to master
 Rachael's example
 Class example 
   
+  
+  
+## Additional resources to help on your GitHub journey 
+
+**Academic Papers**
+
+* (1) [A Quick Introduction to Version Control with Git and GitHub](https://doi-org.ezproxy.lib.utexas.edu/10.1371/journal.pcbi.1004668)
+
+* (2) [Ten Simple Rules for Taking Advantage of Git and GitHub](https://doi-org.ezproxy.lib.utexas.edu/10.1371/journal.pcbi.1004947)
+
+**Quick Start Guides (good for bookmarking)**
+
+
+**For more hands-on practice**
+
+* [GitHub learning labs](https://lab.github.com/)
+* 
+* [The Git Parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html)
