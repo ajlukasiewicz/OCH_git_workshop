@@ -10,4 +10,4 @@ There are tons of reasons why someone would use git, from hosting a website (cla
 
 ## Push/merge example
 
-[Script output, merge 1](https://htmlpreview.github.io/?https://github.com/rachaelcox/OCH_git_workshop/blob/main/OCH_example_script.html)
+[R script, merge 1](https://htmlpreview.github.io/?https://github.com/rachaelcox/OCH_git_workshop/blob/main/output1.html)
