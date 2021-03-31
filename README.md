@@ -9,18 +9,26 @@ We will also cover how to work on collaborative projects and demonstrate what ha
 1. As a collaborator on this repository, I've made a branch called "test" that we are going to merge with Alex's "main" branch. The "test" branch contains an R script not present in the "main" branch.
     * [R script, merge 1](https://htmlpreview.github.io/?https://github.com/ajlukasiewicz/OCH_git_workshop/blob/test/output1.html)
 2. To do this, I'll click "pull requests" at the top of the page and then "new pull request."
+
 ![](/data/gitpullreq_button.png)
+
 4. **Important: merge order matters.** I want to prioritize changes in Alex's branch by pulling from "main" to "test" first. The "test" branch contains this text, not present in the README of Alex's "main" branch--this will create a merge conflict, which we will resolve manually.
+
 ![](/data/gitmerge_order.PNG)
+
 6. After the file looks the way I want it to, I'll mark the conflict as resolved, and complete the merge.
 7. Finally, I'll merge my test branch upstream. There should be no conflicts since we resolved those in the previous step, and the merge will complete automatically.
 
 ## Demo: Forking, Cloning, Pushing, Merging Upstream
 
 1. Now we're going to pretend I'm not a collaborator, and instead I am a stranger that sees this repository and wants to suggests changes to this R script. To do this, I'm going to create a fork. A copy of this repository will then appear on my GitHub account repository page.
+
 ![](/data/gitfork_button.png)
+
 3. To make changes to the R script, I will make a local clone of the repository. I'll do this on the command line, but it can also be down via GitHub Desktop application or the "Download zip" button.
+
 ![](/data/gitclone_link.png)
+
 5. Next, I'll open the script I want to edit in a development environment of choice. If it were a Python script, I might open it in Spyder or Sublime Text. Since it is an R script, I'm going to open it in RStudio to make and save changes.
 6. Once I've made changes on the local version of this repository, I need to push those changes back up to the GitHub server. I'll do this on the CLI with the following commands:
     * `git add .`
