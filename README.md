@@ -8,7 +8,8 @@ We will also cover how to work on collaborative projects and demonstrate what ha
 
 1. As a collaborator on this repository, I've made a branch called "test" that we are going to merge with Alex's "main" branch. The "test" branch contains an R script not present in the "main" branch.
     * [R script, merge 1](https://htmlpreview.github.io/?https://github.com/ajlukasiewicz/OCH_git_workshop/blob/main/output1.html)
-2. To do this, I'll click "pull requests." **Important: merge order matters.** I want to prioritize changes in Alex's branch by pulling from "main" to "test" first. The "test" branch contains this text, not present in the README of Alex's "main" branch--this will create a merge conflict, which we will resolve manually.
+2. To do this, I'll click "pull requests" at the top of the page and then "new pull request."
+3. **Important: merge order matters.** I want to prioritize changes in Alex's branch by pulling from "main" to "test" first. The "test" branch contains this text, not present in the README of Alex's "main" branch--this will create a merge conflict, which we will resolve manually.
 4. After the file looks the way I want it to, I'll mark the conflict as resolved, and complete the merge.
 5. Finally, I'll merge my test branch upstream. There should be no conflicts since we resolved those in the previous step, and the merge will complete automatically.
 
