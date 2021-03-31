@@ -17,7 +17,8 @@ GitHub offers a robust Version Control System (VCS) called git that tracks and m
 ### More reasons to use git (for bioinformaticians) 
  
  <img src=data/perez-riverol_fig_1.png width="700" height="500"> 
- *From Perez-Riverol et. al., 2016*
+
+*From Perez-Riverol et. al., 2016*
  
 On top of maintaining a powerful VCS for your scripts and packages- GitHub plays an important role the scientific community. 
 By posting your source code other scientists are able to engage in peer review of your findings, notify you of issues, or use your tool in their work (boosting your impact!) among many other things.
