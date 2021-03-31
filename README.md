@@ -32,6 +32,7 @@ Another major advantage to the GitHub VCS is the ease of which you can collabora
 ### When to use git? 
 
 ![how the sausage is made](https://s3.amazonaws.com/media.eremedia.com/wp-content/uploads/sites/3/2019/09/04131314/sausage-700x467.jpg)
+
 *From Michael Gray for Sourcecon, 2019*
 
 It can sometimes be a hassle to remember to make commits at key points in your development process, but the best time to start using git is **at the beginning of your project**.
@@ -62,8 +63,18 @@ Most defitions from [1](https://doi-org.ezproxy.lib.utexas.edu/10.1371/journal.p
 
 **Repository**: Directory containing all of your tracked files with associated version history. Also referred to as a **repo**.
 
+## Dont have GitHub or Git on your device?
+If you do not have GitHub, setting up your account and downloading git is easy. For detailed instructions on setup [click here](https://docs.github.com/en/github/getting-started-with-github/set-up-git)
+1. Go to [github.com](https://github.com) and set up an account 
+2. Download and install git for your OS
+3. Open your terminal and configure your local git with your github account info:
+  `git config --global user.name "John Doe"`
+  `git config --global user.email johndoe@example.com`
+  
+   *Note: username and password logins are being depreciated by GitHub in August 2021, but logging in with an SSH key is not. [See the GitHub guide to setting up your ssh key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ## Setting up your first GitHub repo on a solo project
+This section assumes you already have git installed. 
 
 There are two approaches to initializing a repo on GitHub:
 1. From scratch on your GitHub webpage
@@ -79,7 +90,7 @@ There are two approaches to initializing a repo on GitHub:
 ![repo setup](data/repository_setup.png)
 
 3. Begin adding files via the dropdown menu
-![add files](data/add_files_gui.png)
+![add files](data/Add_files_gui.png)
 
 
 ### Initialize repo from your local files 
@@ -92,15 +103,9 @@ If you have already been working on a project locally, do not fear! You can init
 
 `git init`
 
-3. Then stage all the files you would like to be tracked with
+3. Then stage all the files you would like to be tracked with `git add [your file]` or to stage all files enter `git add . `
 
-`git add [your file]`
-
-  or to stage all files enter `git add . `
-
-4. Add a commit message with 
-
-`git commit -m "initial commit" `
+4. Add a commit message with `git commit -m "initial commit" `
 
 5. Then create a new repository from your GitHub profile page as we did above
 
@@ -119,9 +124,10 @@ After this there are two ways to connect to your remote repository:
   `git remote add origin https://github.com/username/your_repo`
   
   These commands can be found on your online repo here:
+  
   ![commands for connection](data/copy_repo_link.png)
 
-  *Note: username and password logins are being depreciated by GitHub in August 2021, but logging in with an SSH key is not. [See the GitHub guide to setting up your ssh key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+ 
 
 ### In class example 1:
 Try creating your own repository given either of the methods above. 
