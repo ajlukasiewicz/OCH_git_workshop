@@ -1,0 +1,29 @@
+---
+title: "OCH GitHub Workshop"
+author: "Rachael M. Cox"
+date: "3/29/2021"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+# view 25 randomly sampled rows of the iris dataset
+sample_n(iris, 25)
+
+# summary stats for petal measurements
+petal_summary_data <- iris %>%
+  group_by(Species) %>%
+  summarize(petal_length_mean = mean(Petal.Length),
+            petal_length_sd = sd(Petal.Length),
+            petal_width_mean = mean(Petal.Width),
+            petal_width_sd = sd(Petal.Width))
+petal_summary_data
+```
+
+```{r}
+# render html with custom output name
+# rmarkdown::render(input = "OCH_example_script.Rmd", output_file = "output1.html")
+```
