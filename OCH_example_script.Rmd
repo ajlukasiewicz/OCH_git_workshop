@@ -10,11 +10,8 @@ library(tidyverse)
 ```
 
 ```{r}
-# top few rows of data set
-head(iris)
-
-# bottom few rows of data set
-tail(iris)
+# view 25 randomly sampled rows of the iris dataset
+sample_n(iris, 25)
 
 # summary stats for petal measurements
 petal_summary_data <- iris %>%
