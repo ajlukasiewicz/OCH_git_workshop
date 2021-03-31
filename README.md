@@ -22,3 +22,4 @@ We will also cover how to work on collaborative projects and demonstrate what ha
     * `git commit -m "made changes to script"`
     * `git push`
 5. Now that my fork is now up-to-date with the changes I want to contribute, I will open a pull request as in the previous example. GitHub automatically detects my fork is downstream of Alex's repo, and sends her a request to merge my fork with the main branch of her repo.
+    * [R script, merge 2](https://htmlpreview.github.io/?https://github.com/rachaelcox/OCH_git_workshop/blob/main/output2.html)
