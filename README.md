@@ -69,7 +69,9 @@ If you do not have GitHub, setting up your account and downloading git is easy. 
 1. Go to [github.com](https://github.com) and set up an account 
 2. Download and install git for your OS
 3. Open your terminal and configure your local git with your github account info:
+
   `git config --global user.name "John Doe"`
+  
   `git config --global user.email johndoe@example.com`
   
    *Note: username and password logins are being depreciated by GitHub in August 2021, but logging in with an SSH key is not. [See the GitHub guide to setting up your ssh key](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
