@@ -7,6 +7,7 @@ output: html_document
 
 ```{r}
 library(tidyverse)
+library(ggthemes)
 ```
 
 ```{r}
@@ -24,6 +25,14 @@ petal_summary_data
 ```
 
 ```{r}
+
+ggplot(iris, aes(x = Petal.Length, fill = Species)) +
+  geom_density(alpha = 0.5) +
+  scale_fill_colorblind()
+  
+```
+
+```{r}
 # render html with custom output name
-# rmarkdown::render(input = "OCH_example_script.Rmd", output_file = "output1.html")
+#rmarkdown::render(input = "OCH_example_script.Rmd", output_file = "output2.html")
 ```
